@@ -26,10 +26,7 @@
       state: present
       cyberark_session: "{{ cyberark_session }}"
     register: cyberarkaction
- 
-  - name:
-      - Rotate credential via reconcile and providing the password to
-        bechanged to.
+  - name: Rotate credential via reconcile and providing the password to bechanged to.
     cyberark_account:
       identified_by: "address,username"
       safe: "ENESTEST"
