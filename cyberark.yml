@@ -26,6 +26,7 @@
       state: present
       cyberark_session: "{{ cyberark_session }}"
     register: cyberarkaction
+
  
   - name: Logoff from CyberArk Vault
     cyberark_authentication:
