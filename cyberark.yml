@@ -36,7 +36,7 @@
       platform_account_properties:
           LogonDomain: "PROD"
       secret_management:
-          new_secret: "Ama123ah12@#!Xaamdjbdkl@#112"
+          new_secret: "dkl@#112"
           management_action: "reconcile"
           automatic_management_enabled: true
       state: present
