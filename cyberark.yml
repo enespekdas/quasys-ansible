@@ -3,9 +3,9 @@
   collections:
     - cyberark.pas
   tasks:
-    - name: Logon to CyberArk Vault using PAS Web Services SDK
-      cyberark.pas.cyberark_authentication:
-        api_base_url: http://components.cyberark.local
-        validate_certs: false
-        username: "bizdev"
-        password: "Cyberark1"
+  - name: Logon to CyberArk Vault using PAS Web Services SDK
+    cyberark_authentication:
+      api_base_url: https://3.220.135.124
+      validate_certs: false
+      username: "Administrator"
+      password: "CyberArk123!"
